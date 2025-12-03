@@ -1,0 +1,12 @@
+body {
+    font-family: open-sans, sans-serif;
+}
+.title {
+    display: flex;
+    margin: auto;
+    width: 80%;
+}
+.title-text {
+    display: flex;
+    flex-direction: column;
+}
