@@ -11,3 +11,30 @@ body {
     display: flex;
     flex-direction: column;
 }
+.title img {height: 130px;}
+.title h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    color: #405f7e;
+}
+.title h3 {
+    font-size: 20px;
+    margin-top: 0;
+    color: #2d465f;
+}
+.txt1 {
+    width: 60%;
+    display: flex;
+    margin: auto;
+    background-image: url("images/bg-txt1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    border: #2d465f 2px solid;
+}
+.txt1 p {
+    margin-left: 10px;
+    margin-right: 10px;
+    filter: drop-shadow(1px 1px 5px rgba(255,255,255, 1));
+}
