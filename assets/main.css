@@ -60,6 +60,7 @@ body {
 }
 .js-content {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     width: 60%;
     margin: auto;
@@ -72,4 +73,19 @@ body {
     margin: 10px;
     font-size: 18px;
     color: #2d465f;
+}
+.js-content h6 {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.js-content a {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: #2d465f;
+    text-decoration: none;
+}
+.js-content a:hover {
+    color: #2d465f;
+    text-decoration: underline;
+    font-weight: bold;
 }
